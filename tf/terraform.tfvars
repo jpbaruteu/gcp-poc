@@ -7,6 +7,8 @@ region = "europe-west2"
 
 zone = "europe-west2-a"
 
+sql_db_name = "prod-db"
+
 sql_user = {
   username = "foobar"
   password = "foobar"
