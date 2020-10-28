@@ -13,6 +13,11 @@ variable "region" {
   description = "The default region to deploy the resources to."
 }
 
+variable "zone" {
+  type = string
+  description = "The default zone to deploy the resources to."
+}
+
 variable "sql_user" {
   type = object({
     username = string
