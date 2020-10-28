@@ -21,13 +21,11 @@ The document describes the activities needed to build a small application based 
 Clone the git repository to your console:
 
 ```
-git clone git@github.com:rgalite/cloudbuild-cloudrun-example.git
+git clone https://github.com/jpbaruteu/gcp-poc.git
 ```
 
 ## Terraform plan
-Navigate to the tf directory, copy the `terraform.tfvars.example` to `terraform.tfvars` and fill in the variables.
-
-Run the following command to create the needed resources:
+Run the following command to create the needed resources in GCP:
 
 ```
 terraform init
