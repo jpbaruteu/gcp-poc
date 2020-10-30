@@ -1,1 +1,1 @@
-Test application used for GCP POC.
+Dockerised LAMP test application used for GCP POC.
